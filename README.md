@@ -7,4 +7,4 @@
 
 **Standard #2:** An ORDER BY clause will sort in ascending order by default, meaning query output will be sorted in ascending order of the given column (or primary key) if the sorting order isn't declared explicitly in the query.
 
-**Modification to Standard #2:** The sqlite3.c file has been modded to make descending order the default sorting order of SQLite.
+**Modification to Standard #2:** The sqlite3.c file has been modded to make descending order the default sorting order of an ORDER BY clause.
